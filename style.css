@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header1{
+    width: 2000px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+.imagemfundo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 50vh;
+    background-image: url("fundo2.jpg");
+    background-size: cover;
+    padding: 15px;
+}
+
+  .Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Logo img {
+    width: 100%;
+    height: 100%
+  }
+
+
+
+
+
+  .search-box {
+    display: flex;
+    align-items: center;
+    width: 670px;
+    height: 80px;
+  }
+  .procurar1 {
+    height: 40px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .procurar2 {
+    height: 40px;
+    width: 300px;
+    border: 1px solid white;
+  }
+  .btn {
+    height: 40px;
+    width: 60px;
+    background-color: red;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid red;
+    cursor: pointer;
+  }
+  
+  .lupa {
+    height: 25px;
+    width: 25px;
+  }
+
+
+
+
+  .abadireita {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .abadireita :nth-child(1):hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+   }
+   .abadireita :nth-child(2):hover{
+    background-color: rgba(250, 248, 248, 0.322);
+    border-radius: 4px;
+   }
+   .abadireita :nth-child(3):hover{
+    background-color: rgba(250, 248, 248, 0.322);
+    border-radius: 4px;
+   }
+  .paraempresas {
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .facaavaliacao {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .acesso {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(126, 125, 125);
+    padding: 20px;
+    transition: 1.3s;
+    font-weight: bold;
+  }
+  .cadastro {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #E00707;
+    text-align: center;
+    padding: 16px 0;
+    width: 150px;
+    height: 50px;
+  }
+
+
+
+
+
+  .frasedomeio {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-left: 450px;
+    margin-bottom: 100px;
+    
+}
+
+
+
+.atividadesrecentes{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(24, 22, 22);
+}
+
+
+
+
+.meio{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.quadrado1{
+  border: 1px solid rgba(145, 144, 144, 0.726);
+  width: 270px;
+  height: 300px;
+  display:flex;
+  flex-direction: column;
+}
+.edward1{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.quadrado1 img{
+  height: 230px;
+  width: 100%;
+  margin-top: 80px;
+}
+.quadrado2{
+  border: 1px solid rgba(145, 144, 144, 0.726);
+  width: 270px;
+  height: 300px;
+}
+.edward2{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.quadrado2 img{
+  height: 230px;
+  width: 100%;
+  margin-top: 80px;
+}
+.quadrado3{
+  border: 1px solid rgba(145, 144, 144, 0.726);
+  width: 270px;
+  height: 300px;
+}
+.edward3{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.quadrado3 img{
+  height: 230px;
+  width: 100%;
+  margin-top: 80px;
+}
+.foot{
+  height: 100px;
+  width: 100%;
+}
