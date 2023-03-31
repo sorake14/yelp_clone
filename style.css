@@ -80,13 +80,14 @@
 
 
   .abadireita {
-    height: 80px;
+    height: 100px;
+    width: 40%;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
   .abadireita :nth-child(1):hover{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(250, 248, 248, 0.322);
     border-radius: 4px;
    }
    .abadireita :nth-child(2):hover{
@@ -124,7 +125,13 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid rgb(126, 125, 125);
-    padding: 20px;
+    border-radius: 4px;
+    padding: 15px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: 1.3s;
     font-weight: bold;
   }
@@ -133,11 +140,16 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    border: 2px solid #E00707;
+    border-radius: 4px;
     background-color: #E00707;
     text-align: center;
     padding: 16px 0;
-    width: 150px;
-    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 20px;
   }
 
 
@@ -167,7 +179,7 @@
 }
 
 
-
+/*--------------------------MEIO DO CODIGO--------------------------*/
 
 .meio{
   height: 300px;
@@ -177,52 +189,98 @@
   margin-top: 30px;
 }
 .quadrado1{
-  border: 1px solid rgba(145, 144, 144, 0.726);
-  width: 270px;
-  height: 300px;
+  border: 1px solid #ebebeb;
+  width: 300px;
   display:flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  margin-top: 5px;
+  margin-left: 10px;
 }
-.edward1{
+.quadrado1 :nth-child(1){
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.edward1 {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  height: 5px;
+  margin-right: 172px;
 }
 .quadrado1 img{
-  height: 230px;
+  height: 235px;
   width: 100%;
-  margin-top: 80px;
 }
+.quadrado1 :nth-child(3){
+  margin-left: 50px;
+  margin-top: -25px;
+}
+
 .quadrado2{
-  border: 1px solid rgba(145, 144, 144, 0.726);
-  width: 270px;
-  height: 300px;
+  border: 1px solid #ebebeb;
+  width: 300px;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.quadrado2 :nth-child(1){
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
 .edward2{
   text-decoration: none;
   color: black;
   font-weight: bold;
+  height: 5px;
+  margin-right: 172px;
 }
 .quadrado2 img{
-  height: 230px;
+  height: 235px;
   width: 100%;
-  margin-top: 80px;
+}
+.quadrado2 :nth-child(3){
+  margin-left: 50px;
+  margin-top: -25px;
+}
+.museu{
+  text-decoration: none;
+  color: rgba(2,122,151,1);
+  margin-right: 50px;
 }
 .quadrado3{
-  border: 1px solid rgba(145, 144, 144, 0.726);
-  width: 270px;
-  height: 300px;
+  border: 1px solid #ebebeb;
+  width: 300px;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  margin-top: 5px;
+  margin-left: 10px;
+}.quadrado3 :nth-child(1){
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
 .edward3{
   text-decoration: none;
   color: black;
   font-weight: bold;
+  height: 5px;
+  margin-right: 172px;
 }
 .quadrado3 img{
-  height: 230px;
+  height: 235px;
   width: 100%;
-  margin-top: 80px;
 }
+.quadrado3 :nth-child(3){
+  margin-left: 50px;
+  margin-top: -25px;
+}
+
 .foot{
   height: 100px;
   width: 100%;
